@@ -1,5 +1,9 @@
 # clean-firefox
-🦊 A set of minimalist configurations for the Firefox browser! Example images coming soon™️
+🦊 A set of minimalist configurations for the Firefox browser! 
+
+
+### Example
+![windows-example](https://user-images.githubusercontent.com/14153661/208849296-a944cd5e-b66a-4a83-9021-3a76a85da52f.png)
 
 ### Recommended addons:
 * [KeePassXC Browser](https://addons.mozilla.org/en-US/firefox/addon/keepassxc-browser/)
@@ -32,3 +36,4 @@ your minimize, maximize, and close window buttons.
 5. Set the value of this rule to `true`
 6. Close and reopen Firefox
 7. You're all done!
+
