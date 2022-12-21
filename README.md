@@ -25,7 +25,7 @@ your minimize, maximize, and close window buttons.
     - _Hint:_ Look for a message like "This is the profile in use and it cannot be deleted" 
 5. Under that profile, find "Root Directory" and copy it
 6. Into this directory, copy the "chrome" folder for your operating system 
-    - `cp -clean-firefox/<your OS name>/chrome/ <profile-dir>`
+    - `cp clean-firefox/<your OS name>/chrome/ <profile-dir>`
 7. If you haven't already, [enable CSS customization within Firefox](#enable-custom-css-within-firefox)
     
 ### Enable custom CSS within Firefox
