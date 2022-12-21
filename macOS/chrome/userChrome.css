@@ -1,0 +1,51 @@
+/* Remove the tab bar from the top of the page */
+
+#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #TabsToolbar > .toolbar-items {
+  opacity: 0;
+  pointer-events: none;
+}
+
+#main-window:not([tabsintitlebar="true"]) #TabsToolbar {
+  visibility: collapse !important;
+}
+
+
+/* Add empty space for macOS title bar buttons */
+
+#nav-bar {
+  margin-left:140px;
+}
+
+
+/* Move the minimize / restore / close buttons to that space */
+
+#TabsToolbar > .titlebar-buttonbox-container {
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 0px;
+}
+
+#main-window[tabsintitlebar="true"]:not([extradragspace="true"]) #TabsToolbar .titlebar-spacer {
+  border-inline-end: none;
+}
+
+
+/* Don't show the tree style tab title bar */
+
+#sidebar-header {
+  display: none;
+}
+
+
+/* Remove the hamburger icon */
+
+#PanelUI-menu-button {
+  display: none;
+}
+
+/* Remove the forward button */
+
+#forward-button {
+  display: none;
+}
